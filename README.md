@@ -7,4 +7,4 @@ data extrapolation from learned prior images, and image reconstruction from extr
 
 The codes in this repository contains the [FBPConvNet](https://ieeexplore.ieee.org/document/7949028) and [Pix2pixGAN](https://arxiv.org/abs/1611.07004) for **artifact reduction using deep learning**.
 
-1. The FBPConvNet is fundamentally the U-Net architecture. Our implementation is modified from the [implementation of Jakeret](https://github.com/jakeret/tf_unet), which uses Tensorflow 1.X. The updated version with Tensorflow 2 can be found [here](https://github.com/jakeret/unet).
+1. The FBPConvNet is fundamentally the [U-Net](https://arxiv.org/abs/1505.04597) architecture. Our implementation is modified from the [implementation of Jakeret et al.](https://github.com/jakeret/tf_unet), which uses Tensorflow 1. The updated version with Tensorflow 2 can be found [here](https://github.com/jakeret/unet).
