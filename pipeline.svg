@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="182.37067mm"
+   height="26mm"
+   viewBox="0 0 182.37067 26"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="pipeline.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path894"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path894-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="278.86121"
+     inkscape:cy="-42.958909"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="4096"
+     inkscape:window-height="2066"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-22.952045,-12.01935)">
+    <rect
+       style="fill:#ff00ff;fill-opacity:0;stroke:#000000;stroke-width:0.62132746;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815"
+       width="50.179646"
+       height="25.343353"
+       x="23.262709"
+       y="12.347673" />
+    <rect
+       style="fill:#ff00ff;fill-opacity:0;stroke:#000000;stroke-width:0.61440378;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815-8"
+       width="49.035873"
+       height="25.359715"
+       x="82.490707"
+       y="12.339493" />
+    <rect
+       style="fill:#ff00ff;fill-opacity:0;stroke:#000000;stroke-width:0.70455724;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect815-8-3"
+       width="64.645882"
+       height="25.295443"
+       x="140.32455"
+       y="12.371629" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="48.265945"
+       y="17.864584"
+       id="text849"><tspan
+         sodipodi:role="line"
+         id="tspan847"
+         x="48.795113"
+         y="17.864584"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Artifact reduction </tspan><tspan
+         sodipodi:role="line"
+         x="48.265945"
+         y="23.15625"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan851">using deep learning</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="23.971123"
+       y="31.188244"
+       id="text855"><tspan
+         sodipodi:role="line"
+         id="tspan853"
+         x="23.971123"
+         y="31.188244"
+         style="font-size:3.52777767px;fill:#000000;fill-opacity:1;stroke-width:0.26458332">(FBPConvNet, Pix2pixGAN, etc.)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="107.33696"
+       y="17.864584"
+       id="text859"><tspan
+         sodipodi:role="line"
+         id="tspan857"
+         x="107.86613"
+         y="17.864584"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Data extrapolation </tspan><tspan
+         sodipodi:role="line"
+         x="107.33696"
+         y="23.15625"
+         style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan861">from learned prior images</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="83.773895"
+       y="31.188244"
+       id="text865"><tspan
+         sodipodi:role="line"
+         id="tspan863"
+         x="83.773895"
+         y="31.188244"
+         style="font-size:3.52777767px;stroke-width:0.26458332">(direct combination, scale comb., </tspan><tspan
+         sodipodi:role="line"
+         x="83.773895"
+         y="36.479912"
+         style="font-size:3.52777767px;stroke-width:0.26458332"
+         id="tspan867">subtraction comb.)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="153.44453"
+       y="17.868717"
+       id="text871"><tspan
+         sodipodi:role="line"
+         id="tspan869"
+         x="153.44453"
+         y="17.868717"
+         style="stroke-width:0.26458332">Image reconstruction</tspan><tspan
+         sodipodi:role="line"
+         x="153.44453"
+         y="23.160383"
+         style="stroke-width:0.26458332"
+         id="tspan873">from extrapolated data</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="142.19026"
+       y="31.188244"
+       id="text877"><tspan
+         sodipodi:role="line"
+         id="tspan875"
+         x="142.19026"
+         y="31.188244"
+         style="font-size:3.52777767px;stroke-width:0.26458332">analytic reconstruction: FBP, DBP, etc.</tspan><tspan
+         sodipodi:role="line"
+         x="142.19026"
+         y="36.479912"
+         style="font-size:3.52777767px;stroke-width:0.26458332"
+         id="tspan879">iterative reconstruction: SART, FISTA, etc.</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 73.818755,25.14063 c 7.181548,0 7.370535,0 7.370535,0"
+       id="path883"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-9)"
+       d="m 131.6478,25.14063 c 7.18155,0 7.37054,0 7.37054,0"
+       id="path883-8"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
