@@ -1,0 +1,1 @@
+python3 pix2pixTif.py --mode train   --output_dir trainedModels/Noisy3D/model18  --max_epochs 300   --input_dir tools/truncation/Noisy3D/train18  --which_direction AtoB
