@@ -6,7 +6,7 @@ In this paper, a plug-and-play (PnP) method is proposed for truncation correctio
 data extrapolation from learned prior images, and image reconstruction from extrapolated data. In the first and the last steps, various deep learning methods and conventional image reconstruction methods can be plugged in, respectively.
 
 
-![pipeline](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/pipeline.png)
+![pipeline](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/pipeline.png)
 
 
 The codes in this repository contains the [FBPConvNet](https://ieeexplore.ieee.org/document/7949028) and [Pix2pixGAN](https://arxiv.org/abs/1611.07004) for **artifact reduction using deep learning**.
