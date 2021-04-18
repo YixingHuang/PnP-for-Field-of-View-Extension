@@ -33,6 +33,8 @@ You can unzip the training data and test data, and put them in the folder of [to
 
 # Training
  Read the repos of [U-Net](https://github.com/jakeret/tf_unet) and [Pix2pixGAN](https://github.com/affinelayer/pix2pix-tensorflow) for the training details.
+ 
+ To train the FBPConvNet, please excute [mainTrainingAndTest.py](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/FBPConvNet/tf_unet/) give the folder paths.
 
 # Acknowledgement for reference repos
  - [U-Net](https://github.com/jakeret/tf_unet)
