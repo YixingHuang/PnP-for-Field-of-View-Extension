@@ -51,7 +51,7 @@ To test FBPConvNet, please excute [mainTrainingAndTest.py](https://github.com/Yi
  
  # Conventional reconstruction
  
- For data extrapolation and conventional image reconstruction, we have used the [CONRAD](https://github.com/akmaier/CONRAD) framework. A preliminary version for the iterative reweighted total variation (wTV) is commited in the [weightedtv](https://github.com/akmaier/CONRAD/tree/master/src/edu/stanford/rsl/tutorial/weightedtv) folder.
+ For data extrapolation and conventional image reconstruction, we have used the [CONRAD](https://github.com/akmaier/CONRAD) framework, which uses Java language. A preliminary version for the iterative reweighted total variation (wTV) is commited in the [weightedtv](https://github.com/akmaier/CONRAD/tree/master/src/edu/stanford/rsl/tutorial/weightedtv) folder. For Python users, you can also choose [PyCONRAD](https://github.com/theHamsta/pyconrad). A preliminar tutorial for installing CONRAD is [here](https://www5.cs.fau.de/conrad/tutorials/index.html).
  
 # Acknowledgement for reference repos
  - [U-Net](https://github.com/jakeret/tf_unet)
