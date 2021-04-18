@@ -37,10 +37,18 @@ You can unzip the training data and test data, and put them in the folder of [to
  
  To train Pix2pixGAN, use the following command:
  
- `python pix2pixL2Tif.py --mode train   --output_dir yourOwnOutputPath  --max_epochs 300   --input_dir tools/yourOwnTrainingDataFolder  --which_direction AtoB `
+ `python pix2pixL2Tif.py --mode train   --output_dir yourOwnOutputModelPath  --max_epochs 300   --input_dir tools/yourOwnTrainingDataFolder  --which_direction AtoB `
 
 Please read the repos of [U-Net](https://github.com/jakeret/tf_unet) and [Pix2pixGAN](https://github.com/affinelayer/pix2pix-tensorflow) for more details.
 
+# Test
+
+To test FBPConvNet, please excute [mainTrainingAndTest.py](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/FBPConvNet/tf_unet/) given the folder paths. If you want test only without training, then replace Line 20 by Line 21.
+ 
+ To test Pix2pixGAN, use the following command:
+ 
+ `python pix2pixL2Tif.py --mode test  --output_dir yourOutputFolder   --input_dir tools/yourTestImageFolder   --checkpoint yourOwnOutputModelPath `
+ 
 # Acknowledgement for reference repos
  - [U-Net](https://github.com/jakeret/tf_unet)
  - [Pix2pixGAN](https://github.com/affinelayer/pix2pix-tensorflow)
