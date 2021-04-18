@@ -1,0 +1,1 @@
+save each test slice into one folder. As the data reader reads the slices randomly, if there are more than one slices, we will not know the corresponding slice for the prediction
