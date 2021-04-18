@@ -56,3 +56,4 @@ To test FBPConvNet, please excute [mainTrainingAndTest.py](https://github.com/Yi
 # Acknowledgement for reference repos
  - [U-Net](https://github.com/jakeret/tf_unet)
  - [Pix2pixGAN](https://github.com/affinelayer/pix2pix-tensorflow)
+ - [CONRAD](https://github.com/akmaier/CONRAD)
