@@ -32,13 +32,14 @@ A copy of our training data, test data, trained model for Pix2pixGAN is availabl
 You can unzip the training data and test data, and put them in the folder of [tools](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/Pix2pixGAN/tools/) for training. In the example, the 18th patient data is used for test. If you move the 18th patient data to the training data folder, and move the data of another patient to the test folder, you can perform leave-one-out cross-validation. You can also use these images for the training of the FBPConvNet by converting the images to the style of the example images in the folder of [trainingData](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/FBPConvNet/trainingData/).
 
 # Training
- Read the repos of [U-Net](https://github.com/jakeret/tf_unet) and [Pix2pixGAN](https://github.com/affinelayer/pix2pix-tensorflow) for the training details.
  
  To train FBPConvNet, please excute [mainTrainingAndTest.py](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/FBPConvNet/tf_unet/) given the folder paths.
  
  To train Pix2pixGAN, use the following command:
  
  `python pix2pixL2Tif.py --mode train   --output_dir yourOwnOutputPath  --max_epochs 300   --input_dir tools/yourOwnTrainingDataFolder  --which_direction AtoB `
+
+Please read the repos of [U-Net](https://github.com/jakeret/tf_unet) and [Pix2pixGAN](https://github.com/affinelayer/pix2pix-tensorflow) for more details.
 
 # Acknowledgement for reference repos
  - [U-Net](https://github.com/jakeret/tf_unet)
