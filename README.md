@@ -19,6 +19,8 @@ The codes in this repository contains the [FBPConvNet](https://ieeexplore.ieee.o
 
 2. The pix2pixGAN implementation is modified from this [source](https://github.com/affinelayer/pix2pix-tensorflow), which also uses Tensorflow 1. Our modification includes the following points: a. Using L2 loss instead of L1 loss; b. Read tif files as input and output as raw files to keep precision of intensity values; c. Change the U-Net to a standard one instead of the simplified one. The codes are in the "pix2pix": folder. More details about the installation and running can be found from the [source](https://github.com/affinelayer/pix2pix-tensorflow).
 
+# Installation
+Please check the requirements.txt in the FBPConvNet and Pix2pixGAN folders respectively for installation. Assuming Python 3.6 or 3.7, Tensorflow_GPU == 1.14.0.
 
 # Acknowledgement for reference repos
  - [U-Net](https://github.com/jakeret/tf_unet)
