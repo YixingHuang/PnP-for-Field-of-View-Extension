@@ -11,6 +11,8 @@ data extrapolation from learned prior images, and image reconstruction from extr
 At the stage of artifact reduction using deep learning, a deep learning model is trained to reduce truncation artifacts like the following:
 ![example](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/Example.png)
 
+Please make sure that the error inside the FOV is small inside the artifact image; otherwise there might be problems in constructing the training and test datasets.
+
 The codes in this repository contains the [FBPConvNet](https://ieeexplore.ieee.org/document/7949028) and [Pix2pixGAN](https://arxiv.org/abs/1611.07004) for **artifact reduction using deep learning**.
 
 1. The FBPConvNet is fundamentally the [U-Net](https://arxiv.org/abs/1505.04597) architecture. Our implementation is modified from the [implementation of Jakeret et al.](https://github.com/jakeret/tf_unet), which uses Tensorflow 1. The updated version with Tensorflow 2 can be found [here](https://github.com/jakeret/unet). The main modification includes the following points: a. Change the last layer for a regressional neural network; b. Change the deconvolutional layer to conv + bilinear up-sampling to avoid checkerboard artifacts; c. Use l2 loss function for training; d. Use tif files as input and output files.
