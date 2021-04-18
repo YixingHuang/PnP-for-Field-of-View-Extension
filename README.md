@@ -18,3 +18,8 @@ The codes in this repository contains the [FBPConvNet](https://ieeexplore.ieee.o
 1. The FBPConvNet is fundamentally the [U-Net](https://arxiv.org/abs/1505.04597) architecture. Our implementation is modified from the [implementation of Jakeret et al.](https://github.com/jakeret/tf_unet), which uses Tensorflow 1. The updated version with Tensorflow 2 can be found [here](https://github.com/jakeret/unet). The main modification includes the following points: a. Change the last layer for a regressional neural network; b. Change the deconvolutional layer to conv + bilinear up-sampling to avoid checkerboard artifacts; c. Use l2 loss function for training; d. Use tif files as input and output files.
 
 2. The pix2pixGAN implementation is modified from this [source](https://github.com/affinelayer/pix2pix-tensorflow), which also uses Tensorflow 1. Our modification includes the following points: a. Using L2 loss instead of L1 loss; b. Read tif files as input and output as raw files to keep precision of intensity values; c. Change the U-Net to a standard one instead of the simplified one. The codes are in the "pix2pix": folder. More details about the installation and running can be found from the [source](https://github.com/affinelayer/pix2pix-tensorflow).
+
+
+# Acknowledgement for reference repos
+ - [U-Net](https://github.com/jakeret/tf_unet)
+ - [Pix2pixGAN](https://github.com/affinelayer/pix2pix-tensorflow)
