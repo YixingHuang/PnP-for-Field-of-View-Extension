@@ -8,6 +8,8 @@ data extrapolation from learned prior images, and image reconstruction from extr
 
 ![pipeline](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/pipeline.png)
 
+At the stage of artifact reduction using deep learning, a deep learning model is trained to reduce truncation artifacts like the following:
+![example](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/Example.png)
 
 The codes in this repository contains the [FBPConvNet](https://ieeexplore.ieee.org/document/7949028) and [Pix2pixGAN](https://arxiv.org/abs/1611.07004) for **artifact reduction using deep learning**.
 
