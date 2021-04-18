@@ -38,7 +38,7 @@ You can unzip the training data and test data, and put them in the folder of [to
  
  To train Pix2pixGAN, use the following command:
  
- 'python pix2pixL2Tif.py --mode train   --output_dir yourOwnOutputPath  --max_epochs 300   --input_dir tools/yourOwnTrainingDataFolder  --which_direction AtoB '
+ `python pix2pixL2Tif.py --mode train   --output_dir yourOwnOutputPath  --max_epochs 300   --input_dir tools/yourOwnTrainingDataFolder  --which_direction AtoB `
 
 # Acknowledgement for reference repos
  - [U-Net](https://github.com/jakeret/tf_unet)
