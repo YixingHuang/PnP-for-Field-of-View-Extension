@@ -49,6 +49,10 @@ To test FBPConvNet, please excute [mainTrainingAndTest.py](https://github.com/Yi
  
  `python pix2pixL2Tif.py --mode test  --output_dir yourOutputFolder   --input_dir tools/yourTestImageFolder   --checkpoint yourOwnOutputModelPath `
  
+ # Conventional reconstruction
+ 
+ For data extrapolation and conventional image reconstruction, we have used the [CONRAD](https://github.com/akmaier/CONRAD) framework. A preliminary version for the iterative reweighted total variation (wTV) is commited in the [weightedtv](https://github.com/akmaier/CONRAD/tree/master/src/edu/stanford/rsl/tutorial/weightedtv) folder.
+ 
 # Acknowledgement for reference repos
  - [U-Net](https://github.com/jakeret/tf_unet)
  - [Pix2pixGAN](https://github.com/affinelayer/pix2pix-tensorflow)
