@@ -21,6 +21,12 @@ The FBPConvNet is fundamentally the [U-Net](https://arxiv.org/abs/1505.04597) ar
 ## Pix2pixGAN
 The pix2pixGAN implementation is modified from this [source](https://github.com/affinelayer/pix2pix-tensorflow), which also uses Tensorflow 1. Our modification includes the following points: a. Using L2 loss instead of L1 loss; b. Read tif files as input and output as raw files to keep precision of intensity values; c. Change the U-Net to a standard one instead of the simplified one. The codes are in the "pix2pix": folder. More details about the installation and running can be found from the [source](https://github.com/affinelayer/pix2pix-tensorflow).
 
+## Exemplary results
+
+The exemplary results on one head case are here:
+
+![Result](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/HeadExample.png)
+
 # Installation
 Please check the requirements.txt in the FBPConvNet and Pix2pixGAN folders respectively for installation. Assuming Python 3.6 or 3.7, Tensorflow_GPU == 1.14.0.
 
