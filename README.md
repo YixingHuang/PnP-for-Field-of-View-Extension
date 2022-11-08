@@ -23,9 +23,15 @@ The pix2pixGAN implementation is modified from this [source](https://github.com/
 
 ## Exemplary results
 
-The exemplary results on one head case are here:
+The exemplary results for one liver CT case are here, where a false positive lesion looks very realistic in the U-Net prediction, which is zoomed-in in the ROI.
+
+![LiverResult](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/LiverCTExample.PNG)
+
+The exemplary results for one head case are here:
 
 ![Result](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/HeadExample.PNG)
+
+
 
 # Installation
 Please check the requirements.txt in the FBPConvNet and Pix2pixGAN folders respectively for installation. Assuming Python 3.6 or 3.7, Tensorflow_GPU == 1.14.0.
