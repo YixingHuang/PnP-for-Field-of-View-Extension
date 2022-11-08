@@ -25,7 +25,7 @@ The pix2pixGAN implementation is modified from this [source](https://github.com/
 
 The exemplary results on one head case are here:
 
-![Result](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/HeadExample.png)
+![Result](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/blob/main/DescriptionImages/HeadExample.PNG)
 
 # Installation
 Please check the requirements.txt in the FBPConvNet and Pix2pixGAN folders respectively for installation. Assuming Python 3.6 or 3.7, Tensorflow_GPU == 1.14.0.
