@@ -18,8 +18,12 @@ The codes in this repository contains the [FBPConvNet](https://ieeexplore.ieee.o
 ## FBPConvNet
 The FBPConvNet is fundamentally the [U-Net](https://arxiv.org/abs/1505.04597) architecture. Our implementation is modified from the [implementation of Jakeret et al.](https://github.com/jakeret/tf_unet), which uses Tensorflow 1. The updated version with Tensorflow 2 can be found [here](https://github.com/jakeret/unet). The main modification includes the following points: a. Change the last layer for a regressional neural network; b. Change the deconvolutional layer to conv + bilinear up-sampling to avoid checkerboard artifacts; c. Use l2 loss function for training; d. Use tif files as input and output files.
 
-## Pix2pixGAN
-The pix2pixGAN implementation is modified from this [source](https://github.com/affinelayer/pix2pix-tensorflow), which also uses Tensorflow 1. Our modification includes the following points: a. Using L2 loss instead of L1 loss; b. Read tif files as input and output as raw files to keep precision of intensity values; c. Change the U-Net to a standard one instead of the simplified one. The codes are in the "pix2pix": folder. More details about the installation and running can be found from the [source](https://github.com/affinelayer/pix2pix-tensorflow).
+## Pix2pixGAN Tensorflow
+The pix2pixGAN Tensorflow implementation is modified from this [source](https://github.com/affinelayer/pix2pix-tensorflow), which also uses Tensorflow 1. Our modification includes the following points: a. Using L2 loss instead of L1 loss; b. Read tif files as input and output as raw files to keep precision of intensity values; c. Change the U-Net to a standard one instead of the simplified one. The codes are in the "pix2pix": folder. More details about the installation and running can be found from the [source](https://github.com/affinelayer/pix2pix-tensorflow).
+The codes have been modified for Tensorflow 2.X. However, the modification is not optimal due to my limited time. Therefore, we recommend the Pytorch version in the following.
+
+## Pix2pixGAN Pytorch
+The pix2pixGAN Pytorch version is modified from the Pix2pix authors' [implementation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). In order to preserve original intensity values, we have modified the codes for Tiff images. Please check the modified version in the [Pix2pix_Pytorch_Tiff](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/Pix2pix_Pytorch_Tiff/) folder.
 
 ## Exemplary results
 
