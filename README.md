@@ -23,7 +23,7 @@ The pix2pixGAN Tensorflow implementation is modified from this [source](https://
 The codes have been modified for Tensorflow 2.X. However, the modification is not optimal due to my limited time. Therefore, we recommend the Pytorch version in the following.
 
 ## Pix2pixGAN Pytorch
-The pix2pixGAN Pytorch version is modified from the Pix2pix authors' [implementation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). In order to preserve original intensity values, we have modified the codes for Tiff images. Please check the modified version in the [Pix2pix_Pytorch_Tiff](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/Pix2pix_Pytorch_Tiff/) folder.
+The pix2pixGAN Pytorch version is modified from the Pix2pix authors' [implementation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). In order to preserve original intensity values, we have modified the codes for Tiff images. Please check the modified version in the [Pix2pix_Pytorch_Tiff](https://github.com/YixingHuang/PnP-for-Field-of-View-Extension/tree/main/Pix2pix_Pytorch_Tiff) folder.
 
 ## Exemplary results
 
